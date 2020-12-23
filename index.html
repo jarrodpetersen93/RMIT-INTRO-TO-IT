@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Jarrod Petersen</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="indexstyle.css">
+<style>
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
+.w3-sidebar {
+  z-index: 3;
+  width: 250px;
+  top: 43px;
+  bottom: 0;
+  height: inherit;
+}
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-theme w3-top w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-right w3-hide-large w3-hover-white w3-large w3-theme-l1" href="javascript:void(0)" onclick="w3_open()"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-theme-l1">Home</a>
+    <a href="project.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">My Project</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Contact</a>
+  </div>
+</div>
+
+<!-- Sidebar -->
+<nav class="w3-sidebar w3-bar-block w3-collapse w3-large w3-theme-l5 w3-animate-left" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-right w3-xlarge w3-padding-large w3-hover-black w3-hide-large" title="Close Menu">
+    <i class="fa fa-remove"></i>
+  </a>
+  <h4 class="w3-bar-item"><b>Menu</b></h4>
+  <a class="w3-bar-item w3-button w3-hover-black" href="#about_me">About Me</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="#it_job">My Ideal IT Job</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="#my_profile">My Profile</a>
+</nav>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- Main content: shift it to the right by 250 pixels when the sidebar is visible -->
+<div class="w3-main" style="margin-left:250px">
+<a id="about_me">
+  <div class="w3-row w3-padding-64">
+    <div class="w3-twothird w3-container">
+      <h1 class="w3-text-teal">About Me</h1>
+      <p>My interest in IT is very broad and started a long time ago. Unfortunately, I never studied IT outside of high school until this course. </p>
+      <p>My motivation to get back into learning IT is for a business idea I would like to put into fruition but need to learn web development. To start my business, I will need to have a solid UI/UX in order to obtain stakeholder interest in joining the platform. To be feasible, it would also need advanced back-end processes. By studying IT I am hoping to be able to better communicate with developers.</p>
+      <p>My interest in IT started when I was connecting to my grandparent’s dial-up & wanted to know what the dial-tone was, shortly after I got my first computer & started fiddling with the settings & downloading all manner of programs. I have very little experience in IT outside of work placement from high school which put me off joining the industry.</p>
+      <p>I was recommended this course by an OUA student advisor & was told I would get a good idea of what it would be like to work in IT and a better idea of the opportunities there are in different aspects of IT.</p>
+      
+    </div>
+    <div class="w3-third w3-container">
+      <p class="top-image"><img src="images/image2.jpg" height="250px" width="350px"></p>
+    </div>
+  </div>
+</a>
+<a id="it_job">
+  <div class="w3-row">
+    <div class="w3-twothird w3-container">
+      <h1 class="w3-text-teal">My Ideal IT Job</h1>
+      <p>My ideal job in IT would be something like the above, where my experience in insurance will help me to understand insurance providers requirements & better communicate with stakeholders.
+        <p>The requirements of this job include a good amount of experience in software development and project management & would require excellent communication skills to liaise between the developers and the business to clearly present the ideas & goals of a project.</p>
+        I do not have any of the IT skills or knowledge required for this role & I believe it would require a significant amount of industry experience post-graduation to excel in role of this nature.
+        While this may be my idea of a perfect job I don’t have any intention of pursuing it, instead I plan on learning programming to start my own business in the insurance industry within the next couple of years.
+        I plan on using as many online resources as are available to me to learn CSS, Javascript & python.
+        </p>
+  </a>
+  <a id="my_profile">
+        <div class="w3-row w3-padding-64">
+          <h1 class="w3-text-teal">My Profile</h1>
+          <h3 class="w3-text-teal w3-padding-16">Creativity Test</h3>
+          <div class="w3-twothird w3-container"><img src="images/creativity-test.PNG">
+          <p>Reading the results of my creativity test tells me I lack creativity & am below average in all ‘metrics of creativity’. I believe this means I may have trouble contributing, or raising points in a group setting & may will struggle to develop or communicate my own ideas.</p>
+            <p>This means I am more likely to sit back in a group setting and simply complete my portion of the work and not take charge. In my ideal team there would specifically need to be a strong leadership type & others who may have more creative ideas.
+            </p>
+            <h3 class="w3-text-teal w3-padding-16">Learning Style Test</h3>
+            <p><a href="Learning-Style.pdf">Click here for the full learning test results</a></p>
+            <p>
+              My learning styles results, pretty well already cement what I had thought about my learning style. I tend to learn best when watching videos & putting what I’m learning into practice at the same time.
+            </p>
+            <p>
+                I don’t believe this will affect my group work greatly, however I will take into consideration that when possible I should try to communicate with my teammates orally.
+            </p>
+            <div class="w3-row w3-padding-16">
+              <h3 class="w3-text-teal">Myers-Briggs Test</h3>
+                <div class="w3-twothird">
+                    <p>This test showed me that I should take time thinking about things in a deeper manner and trying to understand how & why they work.</p>
+                    <p>I’m not sure how this would affect my group work, but if I were to form a team I would need to consider including a leader that is less introverted than myself.</p>
+                </div>
+                  <div class="w3-third w3-container">
+                    <img src="images/myers-briggs.png">
+              </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        
+    </div>
+    <div class="w3-third w3-container">
+      <p class="job-image"><a href="https://www.seek.com.au/job/51133463?type=standout#searchRequestToken=81c49716-a944-4ef2-af52-77d1c9cb83b4"><img src="images/Capture.PNG"></a></p>
+      
+    </div>
+  </div>
+
+  <!-- <div class="w3-row w3-padding-64">
+    <div class="w3-twothird w3-container">
+      <h1 class="w3-text-teal">Heading</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum
+        dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
+    <div class="w3-third w3-container">
+      <p class="w3-border w3-padding-large w3-padding-32 w3-center">AD</p>
+      <p class="w3-border w3-padding-large w3-padding-64 w3-center">AD</p>
+    </div>
+  </div> -->
+
+  <footer id="myFooter">
+    <div class="w3-container w3-theme-l2 w3-padding-32">
+      <h4>Footer</h4>
+    </div>
+
+    <div class="w3-container w3-theme-l1">
+      <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+    </div>
+  </footer>
+
+<!-- END MAIN -->
+</div>
+
+<script>
+// Get the Sidebar
+var mySidebar = document.getElementById("mySidebar");
+
+// Get the DIV with overlay effect
+var overlayBg = document.getElementById("myOverlay");
+
+// Toggle between showing and hiding the sidebar, and add overlay effect
+function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+    overlayBg.style.display = "none";
+  } else {
+    mySidebar.style.display = 'block';
+    overlayBg.style.display = "block";
+  }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+  mySidebar.style.display = "none";
+  overlayBg.style.display = "none";
+}
+</script>
+
+</body>
+</html>
